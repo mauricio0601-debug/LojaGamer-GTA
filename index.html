@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LojaGTA</title>
+    <!-- CSS EXTERNO -->
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <title>Loja GTA</title>
 </head>
 <body>
-    
-</body>
+    <header>
+        <h1 class="logo">Loja<span>Gamer</span></h1>
+        <div class="menu-hamburguer" id="menu-icone">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>          
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- SLIDESHOW -->
+    <section id="banner">
+        <img id="imgBanner"/>
+    </section>
+
+    <main id=" container">
+        <h2>Produtos em Destaques</h2>
+        <section class="card">
+            <div class="card-game">
+                <img src="/src/assets/carro1.jpeg" alt="Produto 1">
+                <article class="card-content">
+                    <h3>Produto 1</h3>
+                    <p class="preco">R$300,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </article>
+            </div>
+            <div class="card-game">
+                <img src="/src/assets/carro2.jpeg" alt="Produto 1">
+                <article class="card-content">
+                    <h3>Produto 1</h3>
+                    <p class="preco">R$400,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </article>
+            </div>
+            <div class="card-game">
+                <img src="/src/assets/carro3.jpeg" alt="Produto 1">
+                <article class="card-content">
+                    <h3>Produto 1</h3>
+                    <p class="preco">R$700,00</p>
+                    <button class="btn-comprar">Comprar</button>
+                </article>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;-2026 LojaGamer-Direitos Reservados</p>
+    </footer>
+
+
+    <!-- JS EXTERNO -->
+     <script src="./src/js/script.js"></script>
+</body> 
 </html>
