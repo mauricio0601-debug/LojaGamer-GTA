@@ -86,20 +86,24 @@ nav ul li a:hover{
 }
 
 #imgBanner{
-    width: 600px;
-    height: 600px;
+    margin-top: 40px;
+    width: 50%;
+    height: 400px;
     border-radius: 10%;
+    border: #4d4c4c solid 5px;
 }
 
 h2{
+    padding: 30px;
     margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 .card{
     padding: 0% 3%;
     display: grid;
     /* Cria coluna automáticas e se ajusta que se ajustam minimo e máximo de 250px e preenche o espaço(fit) */
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));        
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));        
+    gap: 35px;
     margin-top: 20px;
 
 }
@@ -107,19 +111,20 @@ h2{
     background: var(--bg-card);
     border-radius: 20px;
     overflow: hidden;
-    transform: transform 0.3 ease;
     border:2px solid var(--text-color)
 }
 
 .card-game:hover{
     transform: translateY(-10px);
     border: 5px solid;
+    transform: transform 0.5. ease ;
     border-color: var(--btn-color)
 }
 
 .card-game img{
     width: 100%;
     height: auto;
+    
 }
 
 .card-content{
